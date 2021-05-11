@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.keys {
+  display: grid;
+  grid-template-columns: 75px 75px 75px 75px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.keys button {
+  background-color: rgb(195, 213, 230);
+}
+
+#equals {
+  grid-column: 1/5;
+  background-color: rgb(152, 178, 201);
+}
+
+#clear {
+  background-color: rgb(175, 92, 92);
+}
+
+.displayElement {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(60, 74, 112);
+  color: aliceblue;
+  align-items: flex-end;
+}
+#display {
+  padding-top: 20px;
+  padding-right: 10px;
+  float: right;
+}
